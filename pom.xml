@@ -64,6 +64,9 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <mainClass>com.spring.deferred.result.springdeferredresult.SpringDeferredResultApplication</mainClass>
+        </configuration>
       </plugin>
     </plugins>
   </build>
